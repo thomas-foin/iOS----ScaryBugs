@@ -16,6 +16,16 @@
 		71B12022173EABC1000940E0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B12020173EABC1000940E0 /* MainStoryboard.storyboard */; };
 		71B12025173EABC1000940E0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B12024173EABC1000940E0 /* MasterViewController.m */; };
 		71B12028173EABC1000940E0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B12027173EABC1000940E0 /* DetailViewController.m */; };
+		71B12031173EACCA000940E0 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B12030173EACCA000940E0 /* ScaryBugData.m */; };
+		71B12034173EBEF2000940E0 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B12033173EBEF2000940E0 /* ScaryBugDoc.m */; };
+		71B1203D173EC3D5000940E0 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B12035173EC3D5000940E0 /* centipede.jpg */; };
+		71B1203E173EC3D5000940E0 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B12036173EC3D5000940E0 /* centipedeThumb.jpg */; };
+		71B1203F173EC3D5000940E0 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B12037173EC3D5000940E0 /* ladybug.jpg */; };
+		71B12040173EC3D5000940E0 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B12038173EC3D5000940E0 /* ladybugThumb.jpg */; };
+		71B12041173EC3D5000940E0 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B12039173EC3D5000940E0 /* potatoBug.jpg */; };
+		71B12042173EC3D5000940E0 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B1203A173EC3D5000940E0 /* potatoBugThumb.jpg */; };
+		71B12043173EC3D5000940E0 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B1203B173EC3D5000940E0 /* wolfSpider.jpg */; };
+		71B12044173EC3D5000940E0 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B1203C173EC3D5000940E0 /* wolfSpiderThumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +33,29 @@
 		71B1200E173EABC0000940E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71B12010173EABC0000940E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71B12012173EABC0000940E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		71B12016173EABC1000940E0 /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
+		71B12016173EABC1000940E0 /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
 		71B12018173EABC1000940E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71B1201A173EABC1000940E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71B1201C173EABC1000940E0 /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
-		71B1201D173EABC1000940E0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		71B1201C173EABC1000940E0 /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
+		71B1201D173EABC1000940E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71B1201E173EABC1000940E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71B12021173EABC1000940E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		71B12023173EABC1000940E0 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		71B12023173EABC1000940E0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		71B12024173EABC1000940E0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		71B12026173EABC1000940E0 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		71B12026173EABC1000940E0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		71B12027173EABC1000940E0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		71B1202F173EACCA000940E0 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		71B12030173EACCA000940E0 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		71B12032173EBEF2000940E0 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		71B12033173EBEF2000940E0 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		71B12035173EC3D5000940E0 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		71B12036173EC3D5000940E0 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		71B12037173EC3D5000940E0 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		71B12038173EC3D5000940E0 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		71B12039173EC3D5000940E0 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		71B1203A173EC3D5000940E0 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		71B1203B173EC3D5000940E0 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		71B1203C173EC3D5000940E0 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,14 @@
 		71B11FFF173EABC0000940E0 = {
 			isa = PBXGroup;
 			children = (
+				71B12035173EC3D5000940E0 /* centipede.jpg */,
+				71B12036173EC3D5000940E0 /* centipedeThumb.jpg */,
+				71B12037173EC3D5000940E0 /* ladybug.jpg */,
+				71B12038173EC3D5000940E0 /* ladybugThumb.jpg */,
+				71B12039173EC3D5000940E0 /* potatoBug.jpg */,
+				71B1203A173EC3D5000940E0 /* potatoBugThumb.jpg */,
+				71B1203B173EC3D5000940E0 /* wolfSpider.jpg */,
+				71B1203C173EC3D5000940E0 /* wolfSpiderThumb.jpg */,
 				71B12014173EABC0000940E0 /* ScaryBugs */,
 				71B1200D173EABC0000940E0 /* Frameworks */,
 				71B1200B173EABC0000940E0 /* Products */,
@@ -80,6 +110,7 @@
 		71B12014173EABC0000940E0 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				71B1202E173EACA0000940E0 /* Model */,
 				71B1201D173EABC1000940E0 /* AppDelegate.h */,
 				71B1201E173EABC1000940E0 /* AppDelegate.m */,
 				71B12020173EABC1000940E0 /* MainStoryboard.storyboard */,
@@ -101,6 +132,17 @@
 				71B1201C173EABC1000940E0 /* ScaryBugs-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B1202E173EACA0000940E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71B1202F173EACCA000940E0 /* ScaryBugData.h */,
+				71B12030173EACCA000940E0 /* ScaryBugData.m */,
+				71B12032173EBEF2000940E0 /* ScaryBugDoc.h */,
+				71B12033173EBEF2000940E0 /* ScaryBugDoc.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +198,14 @@
 			files = (
 				71B12019173EABC1000940E0 /* InfoPlist.strings in Resources */,
 				71B12022173EABC1000940E0 /* MainStoryboard.storyboard in Resources */,
+				71B1203D173EC3D5000940E0 /* centipede.jpg in Resources */,
+				71B1203E173EC3D5000940E0 /* centipedeThumb.jpg in Resources */,
+				71B1203F173EC3D5000940E0 /* ladybug.jpg in Resources */,
+				71B12040173EC3D5000940E0 /* ladybugThumb.jpg in Resources */,
+				71B12041173EC3D5000940E0 /* potatoBug.jpg in Resources */,
+				71B12042173EC3D5000940E0 /* potatoBugThumb.jpg in Resources */,
+				71B12043173EC3D5000940E0 /* wolfSpider.jpg in Resources */,
+				71B12044173EC3D5000940E0 /* wolfSpiderThumb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +220,8 @@
 				71B1201F173EABC1000940E0 /* AppDelegate.m in Sources */,
 				71B12025173EABC1000940E0 /* MasterViewController.m in Sources */,
 				71B12028173EABC1000940E0 /* DetailViewController.m in Sources */,
+				71B12031173EACCA000940E0 /* ScaryBugData.m in Sources */,
+				71B12034173EBEF2000940E0 /* ScaryBugDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

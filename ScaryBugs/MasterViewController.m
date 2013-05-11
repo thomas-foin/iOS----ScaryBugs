@@ -7,14 +7,20 @@
 //
 
 #import "MasterViewController.h"
+#import "ScaryBugDoc.h"
+#import "ScaryBugData.h"
 
 @implementation MasterViewController
+
+@synthesize bugs=_bugs;
 
 
 - (void)awakeFromNib
 {
     [super awakeFromNib];
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +32,8 @@
 
 - (void)viewDidLoad
 {
+    
+    self.title = @"Scary Bugs";
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -60,7 +68,26 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _bugs.count;
+}   
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"MyBasicCell"];
+    ScaryBugDoc *bug = [self.bugs objectAtIndex:indexPath.row];
+    cell.textLabel.text = bug.data.title;
+    cell.imageView.image = bug.thumbImage;
+    
+    
+    
+    
+    return cell;
 }
 
 /*

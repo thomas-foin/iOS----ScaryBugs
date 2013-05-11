@@ -10,4 +10,5 @@
 
 @interface MasterViewController : UITableViewController
 
+@property (strong) NSMutableArray *bugs;
 @end
